@@ -55,7 +55,8 @@ Type
 implementation
 
 uses
-  FHIR.R2.Types, FHIR.R2.Resources, FHIR.R2.Utilities, FHIR.R2.Constants, FHIR.R2.PathEngine, FHIR.R2.PathNode, FHIR.R2.Common;
+  FHIR.R2.Types, FHIR.R2.Resources, FHIR.R2.Utilities, FHIR.R2.Constants, FHIR.R2.PathEngine, FHIR.R2.PathNode, FHIR.R2.Common,
+  FHIR.Support.Base;
 
 function TSubscriptionManagerR2.checkSubscription(sub : TFHIRResourceV): TFHIRSubscriptionW;
 var
